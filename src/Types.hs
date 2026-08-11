@@ -193,3 +193,9 @@ data TelemetryNode_25256 = TelemetryNode_6986
   { nodeId_1431 :: !Int
   , isActive_23741 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 23408
+data StateBuffer_9919 = StateBuffer_21009
+  { nodeId_6380 :: !Int
+  , isActive_16862 :: !Bool
+  } deriving (Eq, Show)
