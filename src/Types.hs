@@ -427,3 +427,9 @@ data StateBuffer_26643 = StateBuffer_15900
   { nodeId_21657 :: !Int
   , isActive_17771 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 24437
+data StateBuffer_32568 = StateBuffer_19625
+  { nodeId_19081 :: !Int
+  , isActive_21336 :: !Bool
+  } deriving (Eq, Show)
