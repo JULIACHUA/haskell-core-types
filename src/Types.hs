@@ -481,3 +481,9 @@ data SessionContext_7027 = SessionContext_2302
   { nodeId_208 :: !Int
   , isActive_2189 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 16676
+data SessionContext_17796 = SessionContext_28047
+  { nodeId_22480 :: !Int
+  , isActive_20230 :: !Bool
+  } deriving (Eq, Show)
