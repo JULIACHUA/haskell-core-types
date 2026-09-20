@@ -793,3 +793,9 @@ data SessionContext_5753 = SessionContext_13180
   { nodeId_24350 :: !Int
   , isActive_27519 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 6552
+data ClusterVector_18777 = ClusterVector_25340
+  { nodeId_9743 :: !Int
+  , isActive_23203 :: !Bool
+  } deriving (Eq, Show)
