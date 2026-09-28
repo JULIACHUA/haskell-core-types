@@ -913,3 +913,9 @@ data TelemetryNode_11480 = TelemetryNode_28568
   { nodeId_25626 :: !Int
   , isActive_32565 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 32271
+data ClusterVector_1396 = ClusterVector_2738
+  { nodeId_1913 :: !Int
+  , isActive_15752 :: !Bool
+  } deriving (Eq, Show)
