@@ -1171,3 +1171,9 @@ data SessionContext_2513 = SessionContext_23690
   { nodeId_12687 :: !Int
   , isActive_27590 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 10448
+data MetricRecord_18093 = MetricRecord_17727
+  { nodeId_20474 :: !Int
+  , isActive_12827 :: !Bool
+  } deriving (Eq, Show)
