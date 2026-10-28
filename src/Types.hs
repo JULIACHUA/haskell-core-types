@@ -1411,3 +1411,9 @@ data SessionContext_17175 = SessionContext_12264
   { nodeId_30704 :: !Int
   , isActive_4185 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 16578
+data TelemetryNode_4629 = TelemetryNode_31123
+  { nodeId_15737 :: !Int
+  , isActive_28806 :: !Bool
+  } deriving (Eq, Show)
