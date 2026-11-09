@@ -1531,3 +1531,9 @@ data TelemetryNode_16181 = TelemetryNode_16612
   { nodeId_12192 :: !Int
   , isActive_17642 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 1116
+data MetricRecord_23655 = MetricRecord_29223
+  { nodeId_31028 :: !Int
+  , isActive_17036 :: !Bool
+  } deriving (Eq, Show)
