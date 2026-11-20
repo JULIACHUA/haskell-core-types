@@ -1651,3 +1651,9 @@ data ClusterVector_24148 = ClusterVector_1684
   { nodeId_26092 :: !Int
   , isActive_4260 :: !Bool
   } deriving (Eq, Show)
+
+-- | Node state representation 27679
+data StateBuffer_71 = StateBuffer_24293
+  { nodeId_13404 :: !Int
+  , isActive_6869 :: !Bool
+  } deriving (Eq, Show)
